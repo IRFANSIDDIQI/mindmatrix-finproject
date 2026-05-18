@@ -30,11 +30,10 @@ An Android-based "Digital Health Card" designed for rural livestock farmers. It 
 ---
 
 ## 🚀 How to Run (Android Studio)
-1.  **Clone this repo:** `git clone https://github.com/yourusername/grama-vaxi.git`
-2.  **Open in Android Studio:** Use version **Hedgehog** or later.
-3.  **GEMINI_API_KEY:** Add your API key to `local.properties` or environment variables.
-4.  **Gradle Sync:** Wait for the project to sync all dependencies (Room, WorkManager, GenAI SDK).
-5.  **Run:** Select an emulator (Min API 26) or connect a physical device and click **Run**.
+1. open terminal
+2. `cd (file name)`
+3. `npm install`
+4. `npm run dev`
 
 ---
 
