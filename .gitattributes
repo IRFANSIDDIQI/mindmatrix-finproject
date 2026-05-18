@@ -1,0 +1,16 @@
+# Vendor (Ignore) TypeScript files entirely from stats
+src/**/*.tsx linguist-vendored
+src/**/*.ts linguist-vendored
+server.ts linguist-vendored
+*.config.ts linguist-vendored
+package.json linguist-vendored
+package-lock.json linguist-vendored
+metadata.json linguist-vendored
+
+# Force Kotlin to be detected as the main language
+android_source/**/*.kt linguist-detectable=true
+android_source/**/*.kt linguist-language=Kotlin
+
+# Allow index files to contribute small amounts to HTML/CSS stats
+index.html linguist-detectable=true
+src/index.css linguist-detectable=true
